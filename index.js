@@ -1,6 +1,6 @@
 while (true) {
 
-    // Classe genérica para representar o herói de uma aventura
+ 
     class Heroi {
         // Construtor da classe para definir propriedades iniciais
         constructor(nome, idade, tipo) {
@@ -9,12 +9,12 @@ while (true) {
             this.tipo = tipo;
         }
 
-        // Método de ataque que exibe a mensagem com base no tipo do herói
+      
         atacar() {
             let ataque; // Variável para armazenar o tipo de ataque
 
-            // Estrutura de decisão para definir o ataque co'm base no tipo
-            switch (this.tipo.toLowerCase()) { // Usa toLowerCase para ignorar letras maiúsculas/minúsculas
+           
+            switch (this.tipo.toLowerCase()) { 
                 case "mago":
                     ataque = "magia";
                     break;
